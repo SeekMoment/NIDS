@@ -5,10 +5,11 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras import utils
 from sklearn.metrics import classification_report, confusion_matrix
 
-from diploma.models.conv1d import Conv1DModel
-from diploma.models.dnn import DNNModel
-from diploma.models.rnn import RNNModel
-from diploma.services.process import Processor
+
+from NIDS.models.conv1d import Conv1DModel
+from NIDS.models.dnn import DNNModel
+from NIDS.models.rnn import RNNModel
+from NIDS.services.process import Processor
 
 
 class Runner:
